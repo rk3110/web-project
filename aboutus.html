@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 20px;
+  text-align: center;
+  background-color:steelblue;
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body style="background-color: honeydew; height: 1000px;">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top mt-5" style="background-color:gray; height: 40px; width: 1420px; border-radius: 20px; margin-bottom: 10px; margin-left: 30px;">
+      
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="index.html" style="text-decoration: none;"class="nav-item nav-link active"><strong><h3 style="padding-left: 20px; padding-top: 8px;  color: white;">Home</h3></strong></a>
+              
+            </div>
+        </div>
+    </nav>
+<div class="about-section" style="border-radius: 15px;">
+  <h1>About</h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Qz-QGw05Isw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p><h5>India Ki Pharmacy, is brought to you by the Dadha & Company one of India most trusted pharmacies, with over 10 years experience in dispensing quality medicines. At pharmacy.com, we help you look after your own health effortlessly as well as take care of loved ones wherever they may reside in India. You can buy and send medicines from any corner of the country - with just a few clicks of the mouse...</h5></p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card"style="background-color: mistyrose;border-radius: 5px;">
+      <img src="vignesh.jpg" alt="Avatar" style=" width:220px; height: 220px; margin-left: 120px; margin-top: 20px; border-radius: 20px;">
+      <div class="container">
+        <h2>Vignesh Reddy</h2>
+        <p class="title">Developer</p>
+        <p>vigneshreddy74@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card" style="background-color: mistyrose; border-radius: 5px;">
+      <img src="rish.jpeg" alt="Avatar" style=" width:220px; height: 220px; margin-left: 120px; margin-top: 20px; border-radius: 20px;">
+      <div class="container">
+        <h2>Rishika Kapoor</h2>
+        <p class="title">Developer</p>
+        <p>rishikakapoor.rk@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card"style="background-color: mistyrose;border-radius: 5px;">
+<img src="krishna.jpg" alt="Avatar" style=" width:220px; height: 220px; margin-left: 120px; margin-top: 20px; border-radius: 20px;">
+    <div class="container">
+        <h2>Kommuri Krishna Teja</h2>
+        <p class="title">Developer</p>
+        <p>kommurikrishnateja@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

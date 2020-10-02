@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+         <script src="https://use.fontawesome.com/fdc4c76d34.js"></script>
+
+    <title>Home Page</title>
+    <style type="text/css">
+      .k img{
+        height: 100px;
+        width: 110px;
+       margin-left: 20px;
+       margin-right: 25px;
+       margin-top: 25px;
+       margin-bottom: 0px;
+
+      }
+      .x{
+        background-color: antiquewhite;
+        width: 1400px;
+        height: 460px;
+        margin-top:20px;
+         margin-left:20px;
+          margin-right: 20px;
+           margin-bottom: 20px;
+      }
+      .t{
+        
+        width: 300px;
+        height: 420px;
+         margin-top: 10px;
+         margin-left: 20px;
+         margin-right: 20px;
+         margin-bottom: 10px;
+      }
+      .y img{
+       width: 100px;
+       height: 120px;
+       margin-left: 40px;
+       margin-right: 15px;
+       margin-top: 20px;
+       margin-bottom: 10px;
+      }
+      .button{
+        background-color: powderblue;
+        border:none;
+        border-radius: 20px;
+        color: white;
+        padding: 15px,32px;
+        text-align: center;
+        text-decoration :none;
+        display: inline-block;
+        font-size: 16px;
+
+      }
+      footer{
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-height:800px){
+  footer { position: static; }
+  header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+  background-color: #2c292f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 30%;
+}
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+  width: 30%;
+}
+
+.footer-distributed h3 span{
+  color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #e0ac1c;
+  text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
+    </style>
+  </head>
+  <body>
+
+    <div style="background-color: powderblue;padding-top: 20px;padding-bottom: 10px;">
+<div style="margin-left:150px; ">
+
+    <form class="form-inline my-2 my-lg-0">
+      <a href=""><img src="img.jpg" alt="Avatar" style="width: 100px; margin-right:15px;" ></a>
+      <input class="form-control mr-sm-2"  type="search" placeholder="Search for medicine & wellness products" aria-label="Search" style="width: 700px;">
+      <button class="btn btn-outline-dark my-2 my-sm-0" type="button" style="margin-left: 10px;">Search</button>
+      <div>
+       <button type="button" class="btn btn-outline-dark" style="margin-left: 15px;" >Upload</button>
+       <a href=""> 
+  <img src="cart.png" style="width: 40px; height: 40px; margin-left: 10px; margin-right: 10px;"> 
+</a>
+<form action="login(1).php" method="">
+<input type="submit" class="btn btn-outline-dark" name="login"  value="Login" style="margin-left: 15px; margin-right: 10px;  " >
+</form>
+<form action="signup.php" method="POST">
+  <button type="button" class="btn btn-outline-dark"style="margin-left: 10px; ">Signup</button>
+</form>
+    </form>
+     </div> 
+   </div>
+</div>
+<!-- The gray one -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:lightgray; height: 30px;">
+       <a class="navbar-brand" href="#">
+    </a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" style="margin-left: 20px;margin-right: 20px;" href="aboutus.html">About Us <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="margin-right: 20px; margin-left: 20px;" href="#foot">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="margin-right: 20px; margin-left: 20px;" href="offers.html">Offers</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" style="margin-right: 20px; margin-left: 20px;" href="#">My Wallet</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+
+<div class="banner" style="background-color: lightseagreen; margin-left: 20px; margin-right: 20px; margin-top: 10px; margin-bottom: 5px;  height: 100px; border-radius: 20px;">
+  <div class="tex" style="margin-left: 20px; padding-top: 10px; padding-left: 5px; color: white;">
+ <p style="margin-top: 20px; text-align: center;"><h5>Pharmacy &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Save upto 10% extra & enjoy more FREE DELIVERY |&nbsp;&nbsp;&nbsp; <a href="offers.html" style="text-decoration: none; color:darkslategray;text-align: center;">View More -> </a></h5></p>
+   
+</div>
+</div>
+
+<div class="video-section" style="float: right;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NCeTcjSzLJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="order-section" style="background-color:azure; width: 600px; height: 300px; border-radius: 18px;">
+  <h5 style="color: gray; padding: 30px;"><b>How to order medicines ? It's Simple!</b></h5>
+  <ul>
+    <li><h5 style="color: grey;">Upload a Prescription   <button onclick="myFunction()">Upload</button>
+
+</li>
+<script>
+function myFunction() {
+  location.replace("upload.html")
+}
+</script>
+    <li><h5 style="color: grey;">Receive a confirmation call</h5></li>
+    <li><h5 style="color: grey;">Delivery at your door step!</h5></li>
+  </ul>
+  <h5 style="color: dimgray; padding: 15px;"><b>Don't have a prescription? Don't worry
+  !</b></h5>
+  <h6 style="margin-left: 10px;">Simple search for medicines and add to cart!</h6>
+
+</div>
+<div class="row" style="background-color:seashell;   width: 1480px; height: 350px;" >
+<h5 style="padding: 10px;"><strong>Featured Brands| Explore</strong></h5>
+ <div class="column k" style="background-color: peachpuff; margin-left: 0px; margin-top:80px; margin-right: 20px; width: 150px; height: 200px; float: left;">
+  <a href="#"><img src="covid.jpg"></a>
+  <hr>
+  <a href="#"style="text-decoration: none;color:dimgray;text-align: center; font-family:helevtica;"><h5>Covid</h5></a>
+ </div>
+ <div class="column k" style="background-color: peachpuff; margin-left: 40px; margin-top: 80px; margin-right: 20px; width: 150px; height: 200px;">
+  <a href="#"  ><img src="revi.jpg"></a>
+  <hr>
+  <a href="#"style="text-decoration: none;color:dimgray;text-align: center; font-family:helevtica;"><h5>Revital</h5></a>
+ </div>
+ <div class="column k" style="background-color: peachpuff; margin-left: 40px; margin-top: 80px; margin-right: 20px; width: 150px; height: 200px;">
+  <a href="#"><img src="ever.jpg"></a>
+  <hr>
+  <a href="#"style="text-decoration: none; text-align: center;  color:dimgray; font-family:helevtica;"><h5>Everlife</h5></a>
+ </div>
+ <div class="column k" style="background-color: peachpuff; margin-left: 40px; margin-top: 80px; margin-right: 20px; width: 150px; height: 200px;">
+  <a href="#"><img src="volini.jpg"></a>
+  <hr>
+<a href="#"style="text-decoration: none;color:dimgray;text-align: center; font-family:helevtica;"><h5>Volini</h5></a>
+ </div>
+ <div class="column k" style="background-color: peachpuff; margin-left: 40px; margin-top: 80px; margin-right: 20px; width: 150px; height: 200px;">
+  <a href="#"><img src="live.jpg"></a>
+  <hr>
+  <a href="#"style="text-decoration: none;color:dimgray;text-align: center; font-family:helevtica;"><h5>Liveeasy</h5></a>
+ </div>
+ <div class="column k" style="background-color: peachpuff; margin-left: 40px; margin-top: 80px; margin-right: 20px; width: 150px; height: 200px;">
+  <a href="#"><img src="mama.jpg"></a>
+  <hr>
+  <a href="#"style="text-decoration: none;color:dimgray;text-align: center; font-family:helevtica;"><h5>MamaEarth</h5></a>
+ </div>
+</div>
+<p><h3><strong>Top Categories</strong></h3></p>
+<div class="catogories" style="background-color: bisque; width: 1450px; height: 500px; padding: 10px;">
+  <div class="row x" >
+    <div class="column t" style="background-color: silver;">
+      <p><h4 align="center"> Home Care</h4></p>
+      <div class="row">
+        <div class="column y">
+          <a href="homecare.html"><img src="lizol.png" ></a>
+      </div>
+      <div class="column y" >
+        <a href="homecare.html"><img src="harpic.png"></a>
+        
+      </div>
+        
+      </div>
+      <div class="row">
+        <div class="column y">
+          <a href="homecare.html"><img src="prot.jpg"></a>
+      </div>
+      <div class="column y">
+       <a href="homecare.html"> <img src="ensure.jpg"></a>
+        
+      </div>
+        
+      </div>
+    </div>
+    <div class="column t"style="background-color: silver;">
+      <p><h4 align="center">  Personal Care</h4></p>
+        <div class="row">
+        <div class="column y">
+          <a href="personalcare.html"><img src="dettol.jpg" ></a>
+      </div>
+      <div class="column y" >
+       <a href="personalcare.html"> <img src="oil.jpg"></a>
+        
+      </div>
+        
+      </div>
+      <div class="row">
+        <div class="column y">
+          <a href="personalcare.html"><img src="colgate.jpeg"></a>
+      </div>
+      <div class="column y">
+        <a href="personalcare.html"><img src="gill.jpg"></a>
+        
+      </div>
+        
+      </div>
+      
+    </div>
+    <div class="column t"style="background-color: silver;">
+      <p><h4 align="center"> Nutritions & Fitness</h4></p>
+        <div class="row">
+        <div class="column y">
+          <a href="nutrition.html"><img src="horlicks.jpg" ></a>
+      </div>
+      <div class="column y" >
+        <a href="nutrition.html"><img src="comp.jpg"></a>
+        
+      </div>
+        
+      </div>
+      <div class="row">
+        <div class="column y">
+          <a href="nutrition.html"><img src="ever.jpg"></a>
+      </div>
+      <div class="column y">
+        <a href="nutrition.html"><img src="resource.jpg"></a>
+        
+      </div>
+        
+      </div>
+        
+      
+    </div>
+    <div class="column t"style="background-color: silver;">
+      <p><h4 align="center"> Diabetes</h4></p>
+        <div class="row">
+        <div class="column y">
+          <a href="dia.html"><img src="accu.jpg" ></a>
+      </div>
+      <div class="column y" >
+        <a href="dia.html"><img src="end.jpg">
+        </a>
+        
+      </div>
+        
+      </div>
+      <div class="row">
+        <div class="column y">
+        <a href="dia.html">  <img src="depura.jpg"></a>
+      </div>
+      <div class="column y">
+       <a href="dia.html"> <img src="pro.jpg"></a>
+        
+      </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="ban" style="background-color:midnightblue; height: 300px; width: 1459px; margin-top: 50px;"><a href="#"><img src="medic.jpg" style="float: right; width: 400px; height: 250px;  margin-top: 20px; margin-right: 20px;"></a>
+    <div class="texte"  style="padding-top: 20px; padding-left: 30px;"  >
+      <h2 style="color: darkgray;">Simplifying Healthcare, Impacting Lives</h2>
+      
+      <h2 style="color: darkgray; margin-top: 40px;">Download the App for free</h2>
+      <img src="gog.png" style="margin-top: 20px; width: 180px; height: 80px;">
+    </div>
+  </div>
+<!-- The footer section-->
+<footer class="footer-distributed" id="foot" style="width: 1459px;">
+
+      <div class="footer-left">
+        
+        <h3>About<span>Pharmacy</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          |
+          <a href="#">Blog</a>
+          |
+          <a href="#">About</a>
+          |
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">© 2020 Epharmacy</p>
+      </div>
+
+      <div class="footer-center">
+        
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+91 22-27782183</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@eduonix.com">xyz@epharmacy.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About the company</span>
+          India Ki Pharmacy, is brought to you by the Dadha & Company – one of India’s most trusted pharmacies, with over 10 years’ experience in dispensing quality medicines. At pharmacy.com, we help you look after your own health effortlessly as well as take care of loved ones wherever they may reside in India. You can buy and send medicines from any corner of the country - with just a few clicks of the mouse...</p>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+          <a href="https://instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a href="https.//linkedin.com/"><i class="fa fa-linkedin"></i></a>
+          <a href="https.//youtube.com/"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     </body>
+</html>
