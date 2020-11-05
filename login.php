@@ -93,9 +93,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">	<title></title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  <title></title>
 
-	<style type="text/css">
+    <style type="text/css">
         body
 {
     font-size: 20px;
@@ -104,10 +104,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     margin-top: 110px;
     background-color: black;
     background-image: url('bg.jpg');
-     background-size: 1400px 680px;
+     background-size: 1600px 700px;
     opacity: 120%;
 }
-		.container
+        .container
 {
   max-width: 500px;
     padding: 14px 14px 14px 14px;
@@ -124,12 +124,21 @@ a
 {
     color: #7cc278;
 }
-	</style>
+    </style>
+<script>
+function validateForm() {
+  var x = document.forms["Login"]["username"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
 </head>
 <body>
     <div class="container">
         <h2 class ="text-center card-header"><u>Login</u></h2>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" onsubmit="return validateForm()" method="post">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                 <label>Username</label>
                 <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
