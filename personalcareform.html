@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <title>Items in the list</title>
+</head>
+<body>
+	<div class="row" style="background-color: beige; height: 700px; width: 1400px; margin-left: 40px;">
+        <button  onclick="location.href = 'index.html';" type="button" class="btn btn-dark">Home</button>
+		<div class="column" style="background-color: antiquewhite; height: 50px; width: 700px; margin-left: 350px;">
+			<h2 style="text-align: center; margin-top: 10px;">PersonalCare-Items</h2>
+		</div>
+		<div class="form-elements" style="background-color: antiquewhite; height: 500px; width: 1000px; margin-left: 200px; margin-top: 20px;">
+
+<hr>
+<form>
+    <input type="radio" value="Homecare" name="staff[optquestion]" checked="checked">
+    <label for="Homecare">Personal Care</label>
+    </form>
+
+<hr>
+<form action="payment.php">
+  <label for="category"><h3>Items</h3></label>
+  <select id="category" name="category">
+    <option value="volvo">Kesh King Anti Hairfall Shampoo Bottle-&#x20b9;168.3</option>
+    <option value="saab">Colgate Kids(0-2) years-&#x20b9;25.50</option>
+    <option value="fiat">Dabur Gulabjal Bottle -250ml-&#x20b9;67.50</option>
+    <option value="audi">Nivea Body Milk Lotion-&#x20b9;314.10 </option>
+    <option value="audi">Perfectil Skin Care Box of 30-&#x20b9;484.50</option>
+    <option value="audi">Clean & clear Face wash-150ml-&#x20b9;156.75</option>
+  </select>
+
+<hr>
+    <label>Card Type:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <select name="type">
+                                <option value="debit">Debit Card</option>
+        						<option value="credit">Credit Card</option>
+                                </select>
+     <br><br>
+     <label>Expiry Date:</label>&nbsp;&nbsp;&nbsp;
+     		<select name="month">
+    				<option>Jun</option>
+        			<option>Feb</option>
+				<option>Mar</option>
+				<option>May</option>
+				<option>Jun</option>
+				<option>July</option>
+				<option>Aug</option>
+				<option>Sep</option>
+				<option>Oct</option>
+				<option>Nov</option>	
+				<option>Dec</option>
+    		</select>
+		<select name="year">
+                <option>2019</option><option>2020</option>
+                <option>2021</option><option>2022</option>
+                <option>2023</option><option>2024</option>
+                <option>2025</option><option>2026</option>
+                <option>2027</option><option>2028</option>
+                <option>2030</option><option>2031</option>
+                <option>2032</option><option>2033</option>
+                <option>2034</option><option>2035</option>
+                <option>2036</option><option>2037</option>
+                <option>2038</option><option>2039</option>
+                <option>2040</option><option>2041</option>
+                <option>2042</option><option>2043</option>
+                <option>2044</option><option>2045</option>
+                <option>2046</option><option>2047</option>
+                <option>2048</option><option>2049</option>
+                <option>2050</option>
+    		</select>
+        <br><br>
+	<label for="cardno">Card No:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input id="caedno" name="num" placeholder="Card No." required="" type="text"><br><br>
+    
+	<label for="name">Card Name:</label>&nbsp;&nbsp;&nbsp;
+		<input id="name" name="name" placeholder="Name" required="" type="text"><br><br>
+    
+	<label for="password">CVV No:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input id="password" name="cvv" placeholder="CVV No." required="" type="password"><br><br>
+    
+	<label for="password">Enter Pin</label>&nbsp;&nbsp;
+									&nbsp;&nbsp;&nbsp;&nbsp;
+		<input id="password" name="password" placeholder="Enter Pin" required="" type="password"><br><br><br>
+
+		<input type="submit" name="submit" value="Pay" />
+		<input type="reset" name="reset" value="Cancel" />
+   </form>
+</div>
+	</div>
+
+</body>
